@@ -51,7 +51,7 @@ Interpreter::Interpreter(parser& datalogProgram) {
 
 	vector<set<int>> orderToEvaluate = graph.depth1Forest(revPostOrder);
 
-	//evalAllRules(orderToEvaluate);
+	evalAllRules(orderToEvaluate);
 
 }
 

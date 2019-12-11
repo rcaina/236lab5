@@ -19,11 +19,8 @@ int main(int argc, char* argv[]) {
 	parsing.setvector(activate.getVector());
 	parsing.startParser();
 
-
-
 	Interpreter interpreter = Interpreter(parsing);
-
-	//interpreter.evalQueries();
+	interpreter.evalQueries();
 
 	return 0;
 }
